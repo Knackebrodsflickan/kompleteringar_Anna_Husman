@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace kompleteringar_Anna_Husman
 {
-    class Physical : Klass
+    class Skill
     {
-        public List<Skill> skillList = new List<Skill>(); 
+        public string Weapon;
+        public int damage;
     }
 }

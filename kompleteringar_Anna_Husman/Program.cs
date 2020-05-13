@@ -10,6 +10,16 @@ namespace kompleteringar_Anna_Husman
     {
         static void Main(string[] args)
         {
+            Wizard wizard1 = new Wizard();
+
+            for (int i = 0; i < wizard1.spellList.Count; i++)
+            {
+                Console.WriteLine(wizard1.spellList[i].element);
+            }
+
+
+
+            Console.ReadKey();
         }
     }
 }
