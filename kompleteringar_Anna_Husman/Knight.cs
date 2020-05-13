@@ -9,6 +9,7 @@ namespace kompleteringar_Anna_Husman
     class Knight : Physical
     {
         Skill spear = new Spear();
+        Skill closeCombat = new CloseCombat();
 
         public Knight()
         {
@@ -20,7 +21,7 @@ namespace kompleteringar_Anna_Husman
             agility = 5;
 
             skillList.Add(spear);
-            //skillList.Add();
+            skillList.Add(closeCombat);
             
 
         }

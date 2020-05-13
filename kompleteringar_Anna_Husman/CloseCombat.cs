@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace kompleteringar_Anna_Husman
 {
-    class Chainsaw
+    class CloseCombat
     {
     }
 }
