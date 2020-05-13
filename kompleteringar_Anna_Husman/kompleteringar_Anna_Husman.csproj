@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chainsaw.cs" />
     <Compile Include="Character.cs" />
+    <Compile Include="CloseCombat.cs" />
     <Compile Include="Fireball.cs" />
     <Compile Include="Klass.cs" />
     <Compile Include="Knight.cs" />

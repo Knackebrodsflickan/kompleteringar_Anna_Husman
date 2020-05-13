@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace kompleteringar_Anna_Husman
 {
-    class CloseCombat
+    class CloseCombat : Skill
     {
+        public CloseCombat()
+        {
+            Weapon = "CloseCombat";
+            damage = 5;
+        }
     }
 }
