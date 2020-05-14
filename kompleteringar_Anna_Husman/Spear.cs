@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace kompleteringar_Anna_Husman
 {
-    class Spear : Skill
+    class Spear : Skill // ärver från skill
     {
-        public Spear()
+        public Spear() //metod som heter spear, en metod av klassen och dess egenskaper. Så som vad den heter och vad dess vapen är, och hur mycket damage som den ger. Spear kommer fram när man kallar från main o kallar på listan med skills. 
         {
-            Weapon = "Spear";
+            Weapon = "stab";
             damage = 8;
+            names = "spear";
         }
     }
 }

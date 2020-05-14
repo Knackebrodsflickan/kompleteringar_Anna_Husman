@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace kompleteringar_Anna_Husman
 {
-    class Klass : Character
+    class Klass : Character // ärver från character, 
     {
-        public int damage;
+        public int damage; // innehåller ints som damage, defense som wizard och knight senare kommer ha användning för, man upger hur mycket i den specifika klassen.
         public int defense;
         public int agility;
 
