@@ -12,6 +12,7 @@ namespace kompleteringar_Anna_Husman
         {
             element = "fire";
             damage = 10;
+            names = "fireball";
         }
     }
 }

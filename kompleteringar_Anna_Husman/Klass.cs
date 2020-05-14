@@ -12,6 +12,7 @@ namespace kompleteringar_Anna_Husman
         public int defense;
         public int agility;
 
+        
 
     }
 }

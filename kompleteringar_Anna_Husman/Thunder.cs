@@ -12,6 +12,7 @@ namespace kompleteringar_Anna_Husman
         {
             element = "electricity";
             damage = 15;
+            names = "thunder";
         }
     }
 }

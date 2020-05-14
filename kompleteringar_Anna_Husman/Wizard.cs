@@ -11,6 +11,11 @@ namespace kompleteringar_Anna_Husman
         Spell fireball = new Fireball();
         Spell thunder = new Thunder();
 
+        public void Choosenclass()
+        {
+
+        }
+
         public Wizard()
         {
             hp = 120;
@@ -23,6 +28,8 @@ namespace kompleteringar_Anna_Husman
 
             spellList.Add(fireball);
             spellList.Add(thunder);
+
+           
         }
     }
 }

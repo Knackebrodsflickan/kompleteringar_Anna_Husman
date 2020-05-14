@@ -11,6 +11,7 @@ namespace kompleteringar_Anna_Husman
     {
         public string element;
         public int damage;
+        public string names;
 
     }
 }

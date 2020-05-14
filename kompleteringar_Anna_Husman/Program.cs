@@ -27,16 +27,9 @@ namespace kompleteringar_Anna_Husman
                 string ShowSpellList = Console.ReadLine();
                 if(ShowSpellList == "spell")
                 {
-                    
 
-                    for (int i = 0; i < wizard1.spellList.Count; i++)
-                    {
-                        Console.WriteLine(wizard1.spellList[i].element);
-                    }
-
-
-
-                    Console.ReadKey();
+                    wizard1.ShowSpellList();
+                  
                 }
             }
             else if(ChooseClass == "2")

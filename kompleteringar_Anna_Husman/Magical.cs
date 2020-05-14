@@ -10,5 +10,17 @@ namespace kompleteringar_Anna_Husman
     {
         public List<Spell> spellList = new List<Spell>();
 
+        public void ShowSpellList()
+        {
+            for (int i = 0; i < spellList.Count; i++)
+            {
+                Console.WriteLine(spellList[i].names);
+            }
+
+
+
+            Console.ReadKey();
+        }
+
     }
 }
